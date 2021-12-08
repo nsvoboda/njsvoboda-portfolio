@@ -19,5 +19,59 @@
 }
 
 .border-left{
-    border-left: slategray;
+    border-left: solid 2px slategray;
+}
+
+/* Begin Header/Banner Stylings */
+
+
+header{
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    top:0;
+    justify-content: space-between;
+    background-color: var(--header-gray);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--teal);
+}
+
+header h1{
+    color: var(--header-gray);
+    padding:10px;
+    size: 1.55vw;
+}
+
+.name-photo{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--teal);
+    padding: 10px;
+    width: auto;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header li{
+    border-bottom: 3px solid var(--teal);
+}
+
+.banner{
+    background-image: url("../Assets/mountains.JPG");
+    background-size: cover;
+    height: 200px;
 }
