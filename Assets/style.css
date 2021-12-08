@@ -1,0 +1,23 @@
+/* Global Styles */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Customer Variables */
+
+:root{
+    --teal:#B0E4EA;
+    --slate-gray:#424d58;
+    --header-gray:#24292e;
+}
+
+.section-title{
+    color: slategray;
+}
+
+.border-left{
+    border-left: slategray;
+}
