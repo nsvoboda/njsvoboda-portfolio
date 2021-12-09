@@ -161,9 +161,52 @@ header a{
 
 /* Work section */
 
-.work h1{
-    text-align: right;
-    padding: 45px 10px 35px 10px;;
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-one, .project-two, .project-three{
+    border: 4px solid var(--teal);
+}
+
+.project-one{
+    background-image: url("./run-buddy.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    width:100%;
+    height: 300px;
+}
+
+.run-buddy{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--teal);
+    color: var(--slate-gray);
+    padding: 10px;
+    width:20%;
+}
+
+.project-two{
+    background-image: url("./robot-gladiators.jpeg");
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+    width:600px;
+}
+
+.project-three{
+    background-image: url("");
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+    width:50%;
+}
+
+.work a{
+    text-decoration: none;
+    color: var(--teal);
 }
 
 /* Contact Me section */
