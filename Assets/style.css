@@ -18,8 +18,8 @@
     color: slategray;
 }
 
-.border-left{
-    border-left: solid 2px slategray;
+.border-right{
+    border-right: solid 4px slategray;
 }
 
 body{
@@ -88,6 +88,11 @@ header nav ul li a{
 
 header a{
     border-bottom: solid 4px var(--teal);
+    border-left: solid 10px var(--header-gray);
+    border-right: solid 10px transparent;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-width:thick;
 }
 
 .banner{
@@ -110,3 +115,30 @@ header a{
     bottom:0;
     margin: 0 100px 30px 0;
 }
+
+/* End Header/Banner stylings */
+
+/* Begin Body stylings */
+
+/* About Me section */
+
+.about-me{
+    display:flex;
+    flex-wrap: wrap;
+    margin:90px;
+}
+
+.about-me h1{
+    text-align: left;
+    flex: 20%;
+}
+
+.about-me p{
+    text-align: left;
+    flex:80%;
+    padding:0 0 0 30px;
+    color: var(--slate-gray);
+}
+
+/* Work section */
+
