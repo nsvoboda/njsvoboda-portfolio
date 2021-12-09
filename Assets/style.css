@@ -14,6 +14,11 @@
     --header-gray:#24292e;
 }
 
+.nav-border{
+    border-bottom: 4px var(--teal) solid;
+    visibility: hidden;
+}
+
 .section-title{
     color: slategray;
 }
@@ -87,13 +92,15 @@ header nav ul li a{
 }
 
 header a{
-    border-bottom: 4px solid var(--teal);
+    border-bottom: var();
 }
 
 .banner{
     background-image: url("../Assets/mountains.JPG");
     background-size: cover;
     height: 250px;
+    width:100%;
+    position: relative;
 }
 
 .banner-subtitle{
@@ -103,6 +110,8 @@ header a{
     padding: 10px;
     font-weight: bold;
     color: var(--header-gray);
-    left:0;
-    top:0;
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin: 0 100px 30px 0;
 }
