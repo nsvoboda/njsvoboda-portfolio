@@ -16,6 +16,10 @@
 
 .section-title{
     color: slategray;
+    font-weight: normal;
+    display:flex;
+    flex-wrap: wrap;
+    margin:90px;
 }
 
 .border-right{
@@ -26,9 +30,21 @@ body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
-h1{
-    font-weight: bold;
+body h1{
     font-size: 50px;
+    font-weight: normal;
+    text-align: right;
+    padding: 0 10px 0 0;
+    flex: 20%;
+}
+
+.section-content{
+    text-align: left;
+    flex:80%;
+    padding:0 0 0 30px;
+    color: var(--slate-gray);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Begin Header/Banner Stylings */
@@ -122,23 +138,10 @@ header a{
 
 /* About Me section */
 
-.about-me{
-    display:flex;
-    flex-wrap: wrap;
-    margin:90px;
-}
 
-.about-me h1{
-    text-align: left;
-    flex: 20%;
-}
-
-.about-me p{
-    text-align: left;
-    flex:80%;
-    padding:0 0 0 30px;
-    color: var(--slate-gray);
-}
 
 /* Work section */
 
+
+
+/* Contact Me section */
