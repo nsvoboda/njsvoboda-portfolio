@@ -22,29 +22,27 @@
     margin:90px;
 }
 
-.border-right{
-    border-right: solid 4px slategray;
-}
-
 body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
 body h1{
+    display:flex;
     font-size: 50px;
     font-weight: normal;
     text-align: right;
     padding: 0 10px 0 0;
     flex: 20%;
+    border-right: solid 4px slategray;
 }
 
 .section-content{
+    display: flex;
+    justify-content: space-between;
     text-align: left;
     flex:80%;
     padding:0 0 0 30px;
     color: var(--slate-gray);
-    display: flex;
-    justify-content: space-between;
 }
 
 /* Begin Header/Banner Stylings */
@@ -111,6 +109,26 @@ header a{
     border-width:thick;
 }
 
+/* Trying to figure out if individual divs will allow me to get a cleaner bottom border for the navbar items
+
+.nav-about-me{
+    border-bottom: solid 4px var(--teal);
+}
+
+.nav-work{
+    border-bottom: solid 4px var(--teal);
+}
+
+.nav-contact-me{
+    border-bottom: solid 4px var(--teal);
+}
+
+.nav-resume{
+    border-bottom: solid 4px var(--teal);
+} 
+
+*/
+
 .banner{
     background-image: url("../Assets/mountains.JPG");
     background-size: cover;
@@ -142,6 +160,27 @@ header a{
 
 /* Work section */
 
-
+.work h1{
+    text-align: right;
+    padding: 45px 10px 35px 10px;;
+}
 
 /* Contact Me section */
+
+.contact-info{
+    height: 100px;
+}
+
+.contact-methods{
+    padding:40px 0 10px 50px;
+    height:80px;
+}
+
+.contact-methods a{
+    text-decoration: none;
+    color:var(--slate-gray);
+}
+
+.phone, .email, .github-profile, .linkedin-profile, .spotify{
+    border-bottom:solid 4px var(--slate-gray);
+}
