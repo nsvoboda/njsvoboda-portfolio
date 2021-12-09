@@ -14,11 +14,6 @@
     --header-gray:#24292e;
 }
 
-.nav-border{
-    border-bottom: 4px var(--teal) solid;
-    visibility: hidden;
-}
-
 .section-title{
     color: slategray;
 }
