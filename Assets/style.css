@@ -87,7 +87,7 @@ header nav ul li a{
 }
 
 header a{
-    border-bottom: var();
+    border-bottom: solid 4px var(--teal);
 }
 
 .banner{
