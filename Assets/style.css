@@ -162,8 +162,11 @@ header a{
 }
 
 .project-one{
+    background-image: url("./run-buddy.jpeg");
+    background-size: cover;
+    background-position: bottom;
     width:100%;
-    height: 200px;
+    height: 300px;
 }
 
 .project-content{
@@ -176,12 +179,11 @@ header a{
 }
 
 .project-two{
+    background-image: url("./robot-gladiators.jpeg");
+    background-size: cover;
+    background-position:center;
     height: 300px;
     width:45%;
-}
-
-.project-two img{
-    z-index: -1;
 }
 
 .project-three{
