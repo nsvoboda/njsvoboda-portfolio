@@ -1,52 +1,47 @@
-# 02 Advanced CSS: Portfolio
+# Nate Svoboda's Professional Portfolio
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## Purpose
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: at many companies, having several deployed projects is a minimum requirement to receive an initial interview. 
+A webpage to serve as Nate's digital portfolio of work as he progresses in learning development/programming. That way, all of his content is consolidated for future prospective employers.
 
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you'll use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+## Table of Contents
+- [Built With](#built-with)
+- [Website](#website)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [License](#license)
 
-**Note**: If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+## Built With
 
-Let’s look at what a user story written from the perspective of a hiring manager might look like. As you might remember, we follow the AS AN / I WANT / SO THAT format.
+* HTML
+* CSS
 
-## User Story
+## Website
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+https://nsvoboda.github.io/njsvoboda-portfolio/
 
-## Acceptance Criteria
+## Getting Started
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+### Installation
 
-The following animation shows the web application's appearance and functionality:
+It is best practice to directly clone the respository by using the following code in your Terminal/Command Line:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+git clone git@github.com:nsvoboda/njsvoboda-portfolio.git
 
-## Review
+### Usage
 
-You are required to submit BOTH of the following for review:
+Check out some of the cool things Nate has been working on shown in the following screenshots:
 
-* The URL of the deployed application.
+![screenshot of the HTML/CSS project, Run Buddy](./assets/run-buddy.jpeg)
 
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+![screenshot of the Javascript project, Robot Gladiators](./assets/robot-gladiators.jpeg)
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Contribution
+Built with ❤️ by Nate Svoboda.
+
+## License
+
+&copy; 2021 Nathaniel Svoboda
+
+Licensed under the [BSD 2-Clause](LICENSE.txt)
