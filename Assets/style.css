@@ -70,7 +70,7 @@ header a{
     width: auto;
 }
 
-header h1{
+.head-name{
     color: var(--header-gray);
     padding: 45px 10px 35px 10px;
     font-weight: bold;
@@ -110,26 +110,6 @@ header a{
     border-width:thick;
 }
 
-/* Trying to figure out if individual divs will allow me to get a cleaner bottom border for the navbar items
-
-.nav-about-me{
-    border-bottom: solid 4px var(--teal);
-}
-
-.nav-work{
-    border-bottom: solid 4px var(--teal);
-}
-
-.nav-contact-me{
-    border-bottom: solid 4px var(--teal);
-}
-
-.nav-resume{
-    border-bottom: solid 4px var(--teal);
-} 
-
-*/
-
 .banner{
     background-image: url("../Assets/mountains.JPG");
     background-size: cover;
@@ -164,11 +144,21 @@ header a{
 .projects{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.projects a{
+    width: 100%;
+    height:auto;
 }
 
 .project-one, .project-two, .project-three{
     border: 4px solid var(--teal);
+    opacity: 0.5;
+}
+
+.project-one:hover, .project-two:hover, .project-three:hover{
+    opacity: 1;
 }
 
 .project-one{
@@ -179,13 +169,13 @@ header a{
     height: 300px;
 }
 
-.run-buddy{
-    display: flex;
-    justify-content: space-between;
+.project-content{
+    display: block;
     background-color: var(--teal);
     color: var(--slate-gray);
     padding: 10px;
-    width:20%;
+    width:fit-content;
+    margin:170px 0 20px 0;
 }
 
 .project-two{
@@ -193,21 +183,23 @@ header a{
     background-size: cover;
     background-position:center;
     height: 300px;
-    width:600px;
+    width:45%;
 }
 
 .project-three{
-    background-image: url("");
+    background-image: url("./horiseon.png");
     background-size: cover;
     background-position:center;
     height: 300px;
-    width:50%;
+    width:45%;
 }
 
 .work a{
     text-decoration: none;
     color: var(--teal);
 }
+
+/* Work section end */
 
 /* Contact Me section */
 
@@ -227,4 +219,59 @@ header a{
 
 .phone, .email, .github-profile, .linkedin-profile, .spotify{
     border-bottom:solid 4px var(--slate-gray);
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px){
+    /* this will be applied on any screen smaller than 980px */
+
+    body h1{
+        display:flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        font-weight: normal;
+        text-align: right;
+        padding: 0 10px 0 0;
+        border-right: solid 4px slategray;
+    }
+    
+    .section-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: left;
+        padding:0 0 0 30px;
+        color: var(--slate-gray);
+    }
+
+    .contact-methods{
+        display: block;
+    }
+
+    header nav ul li a{
+        font-size:15px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width:768px){
+    /* this will be applied on any screen between 768px and 575px */
+
+    .banner-subtitle{
+        font-size: 20px;
+        width: fit-content;
+        padding: 10px;
+        font-weight: bold;
+        position:absolute;
+        right:0;
+        bottom:0;
+        margin: 0 70px 30px 0;
+    }
+
+   .section-title{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       width: fit-content;
+   }
 }
