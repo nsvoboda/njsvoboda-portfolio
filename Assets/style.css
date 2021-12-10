@@ -275,3 +275,32 @@ header a{
        width: fit-content;
    }
 }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width:575px){
+    /*this will be applied on any screen smaller than 575px */
+
+    body h1{
+        display:flex;
+        flex-wrap: wrap;
+        font-size: 15px;
+        font-weight: normal;
+        text-align: right;
+        padding: 0 10px 0 0;
+        border-right: solid 4px slategray;
+    }
+    
+    .section-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: left;
+        font-size: 12px;
+        padding:0 0 0 30px;
+        color: var(--slate-gray);
+    }
+
+    .contact-methods{
+        display: block;
+    }
+}
